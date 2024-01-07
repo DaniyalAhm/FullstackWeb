@@ -7,12 +7,12 @@ import './App.scss';
 const App = () => {
     return (
         <div className='app'>
-            <Navbar />
-            <Header />
-            <About />
-            <Skills />
-            <PersonalProjects />
-            <Footer />
+            <Navbar className="Navbar" />
+            <Header className="Header" />
+            <About className="About" />
+            <Skills className="Skills" />
+            <PersonalProjects  className="PersonalProjects"/>
+            <Footer className="Footer" />
         </div>
     );
 };
