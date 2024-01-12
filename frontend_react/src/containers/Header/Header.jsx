@@ -21,8 +21,7 @@ function Header() {
 
         <div className='badge-cmp app__flex'>
 
-        <p className='Intro'>  Hello, I am Daniyal</p>
-        <h1 className='Header__name'>Daniyal Ahmed</h1>
+        <h1 className='Header__name'>Welcome Daniyal</h1>
         
 
         </div>

@@ -1,0 +1,40 @@
+.app__flex {
+    /* Styles for the li elements here */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app__flex a {
+    /* Styles for the a tags here */
+    text-decoration: none;
+    color: black;
+  }
+  
+
+
+  .Links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    a{
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+  }
+
+  .app__flex a:hover {
+    /* Styles for the a tags on hover here */
+    color: white;
+  }

@@ -5,7 +5,7 @@ import { images } from '../../constant-imports';
 import { easeInOut, motion } from 'framer-motion';
 
 function Navbar() {
-  const menuItems = ['Home', 'About', 'Footer', 'Header', 'Personal Projects', 'Skills'];
+  const menuItems = ['Home', 'Analytics',];
   const [toggle, setToggle] = useState(false);
   
   // Use map to create the listItems array
@@ -41,7 +41,7 @@ function Navbar() {
       {/* Render menu items inside the motion.div */}
      
       {menuItems.map((item) => (
-        <li key={item} className='app__navbar-hamburger-items'>
+        <li key={item} className='app__navbar-hamburger-menu-items'>
           <a href={`#${item}`} onClick={() => { setToggle(false)}}>{item}</a>
         </li>
       ))}

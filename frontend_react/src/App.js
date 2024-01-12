@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { About, Footer, Header, PersonalProjects, Skills } from './containers';
+import { About, Footer, Header, PersonalProjects, Skills, Calender } from './containers';
 import Navbar from './components/Navbar/Navbar';
 import './App.scss';
 
@@ -13,8 +13,8 @@ const App = () => {
             <Skills className="Skills" />
             <PersonalProjects  className="PersonalProjects"/>
             <Footer className="Footer" />
+            <Calender className="Calender" />
         </div>
-    );
-};
+);}
 
 export default App;
